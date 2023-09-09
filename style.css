@@ -1,0 +1,10 @@
+body {
+  background-image: url('bckgrd.png');
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url('bckgrd-mobile.png');
+  }
+}
